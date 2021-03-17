@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/kad.css" />
+    <title>PHP復習問題２</title>
+  </head>
+  <body>
+    <header>
+      <h1><span>PHP復習問題２</span></h1>
+    </header>
+    <div id="contents">
+      <!-- ここにフォームを作成[POST] -->
+      <form action="./practice05.php" method="post">
+        <p>名前: <input type="text" name="username" value="田中" /></p>
+        <p>年齢: <input type="number" name="userage" value="19" /></p>
+        <input type="submit" value="送信" />
+      </form>
+      <!-- 各フォームのname属性やvalue属性は各自で決める -->
+    </div>
+    <style>
+      input {
+        width: 300px;
+      }
+    </style>
+  </body>
+</html>
